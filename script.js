@@ -8,7 +8,3 @@ function add(){
         addXbutton();
     }
 }
-
-function addXbutton(){
-    c.innerHTML+=``
-}
