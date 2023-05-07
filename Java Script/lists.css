@@ -1,0 +1,44 @@
+#outer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:600px) {
+    .main{
+        max-width: 600px;
+    }
+}
+
+.main{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+#sub{
+    width:25vw;
+    height:7vh;
+    border-radius: 8px;
+    border: 3px solid skyblue;
+}
+
+.comment{
+    padding-top: 25px;
+}
+
+.model{
+    width: 45vw;
+    height: 7vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid orange;
+}
